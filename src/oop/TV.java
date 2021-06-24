@@ -1,5 +1,5 @@
 package oop;
-
+//Learn class object
 public class TV {
 	private int channel = 1;
 	private int volumeLevel = 1;
