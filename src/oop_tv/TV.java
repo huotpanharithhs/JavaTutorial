@@ -1,4 +1,4 @@
-package oop;
+package oop_tv;
 //Learn class object
 public class TV {
 	private int channel = 1;
