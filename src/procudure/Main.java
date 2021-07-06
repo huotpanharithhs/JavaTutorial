@@ -8,5 +8,6 @@ public class Main {
 		
 		System.out.println(myNum);
 		System.out.println(myDoble);
+		//Testing
 	}
 }
