@@ -12,7 +12,7 @@ public class SubtractionQuiz {
 			number1 = number2;
 			number2 = temp;
 		}
-		System.out.println("What is " + number1 + " - " + number2 + "? ");
+		System.out.print("What is " + number1 + " - " + number2 + "? ");
 		Scanner input = new Scanner(System.in);
 		int answer = input.nextInt();
 		if (answer == (number1 - number2)) {
