@@ -1,21 +1,18 @@
 package class_object;
 
 public class Test {
-    public static void myMethod(){
-        System.out.println("Hello!");
+    public int max(int a, int b) {
+        if (a > b)
+            return a;
+        return b;
     }
-    public static int myMethod1(){
-        System.out.println("Hello!");
-        return 10;
+    public double max(double a, double b) {
+        if (a > b)
+            return a;
+        return b;
     }
-    public void main1(String[] args){
-        for(int i = 0 ; i< args.length; i++){
-            System.out.println(args[i]);
-        }
-    }
+
     public static void main(String[] args) {
-        for(int i = 0 ; i< args.length; i++){
-            System.out.println(args[i]);
-        }
+
     }
 }
