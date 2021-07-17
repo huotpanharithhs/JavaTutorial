@@ -1,7 +1,6 @@
 package class_object;
 
 public class Test {
-    //Test git
     public int max(int a, int b) {
         if (a > b)
             return a;
